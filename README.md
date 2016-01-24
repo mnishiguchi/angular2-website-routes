@@ -4,6 +4,7 @@
 - Demonstrates how to build components, configure routes, inject services, and use the `@Input` decorator to bind properties to components.
 - https://github.com/simpulton/angular2-website-routes
 - http://onehungrymind.com/build-a-simple-website-with-angular-2/
+- http://simpulton.github.io/angular2-website-routes/
 
 ==
 
@@ -15,14 +16,14 @@
 - Call `npm start` when we are ready to compile and serve our application.
 
 ```json
-//...
-"scripts": {
-  "tsc": "tsc",
-  "tsc:w": "tsc -w",
-  "lite": "lite-server",
-  "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
-}
-//...
+    //...
+    "scripts": {
+      "tsc": "tsc",
+      "tsc:w": "tsc -w",
+      "lite": "lite-server",
+      "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+    }
+    //...
 ```
 
 ==
@@ -32,3 +33,6 @@
 ```bash
 npm start
 ```
+
+==
+
