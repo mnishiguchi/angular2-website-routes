@@ -1,6 +1,7 @@
 import {Injectable} from 'angular2/core';
 
-// Defines the ExperimentDetailComponent.
+// Defines the StateService.
+
 @Injectable()
 export class StateService {
 

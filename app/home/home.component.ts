@@ -2,6 +2,7 @@ import {Component}    from 'angular2/core';
 import {StateService} from '../common/state.service';
 
 // Defines the HomeComponent.
+
 @Component({
   selector:    'home',
   templateUrl: 'app/home/home.component.html'

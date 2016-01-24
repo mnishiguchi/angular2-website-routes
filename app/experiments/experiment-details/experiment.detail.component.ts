@@ -2,6 +2,7 @@ import {Component, Input} from 'angular2/core';
 import {Experiment}       from '../../common/experiment.model';
 
 // Defines the ExperimentDetailComponent.
+
 @Component({
   selector:    'experiment',
   templateUrl: 'app/experiments/experiment-details/experiment.detail.component.html',
@@ -16,6 +17,8 @@ import {Experiment}       from '../../common/experiment.model';
 })
 export class ExperimentDetailComponent {
 
+  // The @Input annotation
+  // - declares a data-bound property so that it is automatically updated during change detection.
   @Input() experiment: Experiment;
 
   doExperiment(): void {

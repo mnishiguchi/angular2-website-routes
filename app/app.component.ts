@@ -7,6 +7,7 @@ import {StateService}                   from './common/state.service';
 import {ExperimentsService}             from './common/experiments.service';
 
 // Defines the AppComponent.
+// --
 // This is the root component.
 @Component({
   selector:    'app',

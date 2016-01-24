@@ -6,6 +6,8 @@ import {StateService}              from '../common/state.service';
 import {ExperimentDetailComponent} from './experiment-details/experiment.detail.component';
 
 // Defines the ExperimentsComponent.
+
+// All the subcomponents must be specified in the directives array.
 @Component({
   selector:    'experiments',
   templateUrl: 'app/experiments/experiments.component.html',
